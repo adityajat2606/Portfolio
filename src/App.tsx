@@ -45,8 +45,8 @@ function App() {
             transition={{ duration: 0.5 }}
             className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg shadow-primary/20"
           >
-            <img
-              src={/21BCE11275.jpg}
+          <img
+              src="/21BCE11275.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
