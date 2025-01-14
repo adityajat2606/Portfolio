@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { Github, Linkedin, Mail, Phone, ChevronDown, ExternalLink, Briefcase, GraduationCap, Award, Code, User, ArrowRight } from 'lucide-react';
-import ProfileImage from 'src/21BCE11275.jpg';
 
 function App() {
   return (
@@ -47,7 +46,7 @@ function App() {
             className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-primary/50 shadow-lg shadow-primary/20"
           >
             <img
-              src={ProfileImage}
+              src={/21BCE11275.jpg}
               alt="Profile"
               className="w-full h-full object-cover"
             />
