@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { Github, Linkedin, Mail, Phone, ChevronDown, ExternalLink, Briefcase, GraduationCap, Award, Code, User, ArrowRight } from 'lucide-react';
+import ProfileImage from './21BCE11275.jpg';
 
 function App() {
   return (
@@ -47,6 +48,11 @@ function App() {
           >
             <img
               src="/21BCE11275.jpg"
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+            <img
+              src={ProfileImage}
               alt="Profile"
               className="w-full h-full object-cover"
             />
