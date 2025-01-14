@@ -51,6 +51,7 @@ function App() {
               alt="Profile"
               className="w-full h-full object-cover"
             />
+            
           </motion.div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             <motion.span
