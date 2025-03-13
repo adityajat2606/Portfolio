@@ -163,6 +163,18 @@ function App() {
             ]}
             image="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400"
           />
+          <ExperienceCard
+            title="Pawzzitive Welfare Foundation"
+            role="Business Development Intern"
+            date="November 2024 - January 2025"
+            points={[
+              "Contributed to animal welfare initiatives and community outreach",
+              "Assisted in organizing awareness campaigns and fundraising events",
+              "Collaborated with volunteers for execution of welfare programs"
+            ]}
+            image="/images/pawzzitive.jpg"
+          />
+
         </div>
       </Section>
 
@@ -199,6 +211,20 @@ function App() {
             ]}
             image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400"
           />
+          <ProjectCard
+            title="Virtual Mouse"
+            tech={["Gesture Recognition", "Voice Assistant"]}
+            description="Gesture-based system for mouse control and voice commands."
+            points={[
+              "Cursor movement & click operations",
+              "Drag & drop functionality",
+              "Volume & brightness control",
+              "Voice-activated commands",
+              "Integrated PyAudio & pywin32"
+            ]}
+            github="https://github.com/adityajat2606/Virtual-Mouse"
+          />
+
         </div>
       </Section>
 
@@ -226,6 +252,27 @@ function App() {
               </div>
             </div>
           </motion.div>
+           <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="bg-dark-lighter rounded-2xl p-8 relative overflow-hidden"
+          >
+            <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full -translate-y-1/2 translate-x-1/2" />
+            <div className="relative z-10">
+              <img
+                src="/images/highschool.png" // Replace with your uploaded high school image
+                alt="High School"
+                className="w-full h-48 object-cover rounded-lg mb-6"
+              />
+              <h3 className="text-2xl font-bold text-primary mb-2">Krishna Vidhya Mandir Sr. Sec. School</h3>
+              <p className="text-xl text-gray-300 mb-1">Higher Secondary Education (12th)</p>
+              <p className="text-gray-400 mb-4">Alwar, India | Completed 2021</p>
+              <div className="inline-block bg-primary/20 px-4 py-2 rounded-full">
+                <p className="text-primary font-semibold">Percentage: 92.20%</p>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </Section>
 
@@ -246,6 +293,11 @@ function App() {
             title="NPTEL Cloud Computing"
             description="Scored 71% in Elite Certificate from IIT Kharagpur"
             icon={<Award className="w-8 h-8" />}
+          />
+          <AchievementCard
+            title="Salesforce AI Associate Certified"
+            description="Validated AI knowledge & responsible AI practices with Salesforce"
+            icon={<Brain className="w-8 h-8" />} // You can change the icon if needed
           />
         </div>
       </Section>
