@@ -264,7 +264,7 @@ function App() {
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full -translate-y-1/2 translate-x-1/2" />
             <div className="relative z-10">
               <img
-                src="/images/highschool.png" // Replace with your uploaded high school image
+                src="https://raw.githubusercontent.com/adityajat2606/Portfolio/main/public/high%20school.jpg"
                 alt="High School"
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
