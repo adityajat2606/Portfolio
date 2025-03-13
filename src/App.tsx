@@ -172,9 +172,8 @@ function App() {
               "Assisted in organizing awareness campaigns and fundraising events",
               "Collaborated with volunteers for execution of welfare programs"
             ]}
-            image="https://github.com/adityajat2606/Portfolio/blob/main/public/download.jpg"
+            image="https://raw.githubusercontent.com/adityajat2606/Portfolio/main/public/download.jpg"
           />
-
         </div>
       </Section>
 
@@ -190,6 +189,7 @@ function App() {
               "Optimized data collection and analysis processes"
             ]}
             image="https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=400"
+            github="https://github.com/adityajat2606/Resource-Tracker"
           />
           <ProjectCard
             title="Home Security With Facial Recognition"
@@ -200,6 +200,7 @@ function App() {
               "Implemented real-time notifications via Firebase FCM"
             ]}
             image="https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=400"
+            github="https://github.com/adityajat2606/StarSecure"
           />
           <ProjectCard
             title="Drug De-Addiction System"
@@ -210,6 +211,7 @@ function App() {
               "Increased resource accessibility by 30%"
             ]}
             image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400"
+            github="https://github.com/adityajat2606/Drug-De-Addiction-System"
           />
           <ProjectCard
             title="Virtual Mouse"
@@ -222,6 +224,7 @@ function App() {
               "Voice-activated commands",
               "Integrated PyAudio & pywin32"
             ]}
+            image="https://imgur.com/a/wlgouLB"
             github="https://github.com/adityajat2606/Virtual-Mouse"
           />
 
