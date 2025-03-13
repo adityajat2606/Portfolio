@@ -224,7 +224,7 @@ function App() {
               "Voice-activated commands",
               "Integrated PyAudio & pywin32"
             ]}
-            image="https://imgur.com/a/wlgouLB"
+            image="https://raw.githubusercontent.com/adityajat2606/Portfolio/main/public/mouse.jpg"
             github="https://github.com/adityajat2606/Virtual-Mouse"
           />
 
@@ -255,7 +255,7 @@ function App() {
               </div>
             </div>
           </motion.div>
-           <motion.div
+          <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
