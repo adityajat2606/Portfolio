@@ -172,7 +172,7 @@ function App() {
               "Assisted in organizing awareness campaigns and fundraising events",
               "Collaborated with volunteers for execution of welfare programs"
             ]}
-            image="/images/pawzzitive.jpg"
+            image="https://github.com/adityajat2606/Portfolio/blob/main/public/download.jpg"
           />
 
         </div>
