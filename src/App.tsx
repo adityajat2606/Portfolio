@@ -297,7 +297,7 @@ function App() {
           <AchievementCard
             title="Salesforce AI Associate Certified"
             description="Validated AI knowledge & responsible AI practices with Salesforce"
-            icon={<Brain className="w-8 h-8" />} // You can change the icon if needed
+            icon={<Brain className="w-8 h-8" />} 
           />
         </div>
       </Section>
