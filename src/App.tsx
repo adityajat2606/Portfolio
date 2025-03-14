@@ -216,7 +216,7 @@ function App() {
           />
           <ProjectCard
             title="Virtual Mouse"
-            tech={["Gesture Recognition", "Voice Assistant"]}
+            tech={["Gesture Recognition, Voice Assistant"]}
             description="Gesture-based system for mouse control and voice commands."
             points={[
               "Cursor movement & click operations",
