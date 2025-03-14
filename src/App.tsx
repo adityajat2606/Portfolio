@@ -411,7 +411,10 @@ const ExperienceCard = ({ title, role, date, points, image }) => (
   </motion.div>
 );
 
-const ProjectCard = ({ title, tech, description, points, image }) => (
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+
+const ProjectCard = ({ title, tech, description, points, image, github, demo }) => (
   <motion.div
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -445,9 +448,36 @@ const ProjectCard = ({ title, tech, description, points, image }) => (
           </li>
         ))}
       </ul>
+
+      {/* ✅ Conditionally Render Links */}
+      <div className="flex mt-4 gap-4">
+        {github && (
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            GitHub Repo
+          </a>
+        )}
+        {demo && (
+          <a
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-400 hover:underline"
+          >
+            Live Demo
+          </a>
+        )}
+      </div>
     </div>
   </motion.div>
 );
+
+export default ProjectCard;
+
 
 const AchievementCard = ({ title, description, icon }) => (
   <motion.div
