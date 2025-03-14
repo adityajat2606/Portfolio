@@ -437,7 +437,7 @@ const ProjectCard = ({ title, tech, description, points, image, github, demo }) 
           {title}
         </h3>
         <span className="text-sm text-gray-400 bg-dark/50 px-2 py-1 rounded">
-          {tech}
+          {Array.isArray(tech) ? tech.join(", ") : tech}
         </span>
       </div>
       <p className="text-gray-300 mb-4">{description}</p>
