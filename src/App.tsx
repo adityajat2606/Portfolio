@@ -227,6 +227,7 @@ function App() {
             ]}
             image="https://raw.githubusercontent.com/adityajat2606/Portfolio/main/public/mouse.jpg"
             github="https://github.com/adityajat2606/Virtual-Mouse"
+            demo="https://portfolio-pczg1rrpc-aditya-choudharys-projects-5487c3b2.vercel.app"
           />
 
         </div>
