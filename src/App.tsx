@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { Github, Linkedin, Mail, Phone, ChevronDown, ExternalLink, Briefcase, GraduationCap, Award, Code, User, ArrowRight } from 'lucide-react';
+import { Brain } from "lucide-react";
 
 function App() {
   return (
